@@ -1,6 +1,8 @@
-# BlockBlast
+# ByteBlast
 
-A [BlockBlast](https://play.google.com/store/apps/details?id=com.block.juggle&pcampaignid=web_share) clone using **pygame**. BlockBlast is a puzzle game where players place blocks on a grid to clear rows and columns. This project includes an auto-solve feature that uses a backtracking algorithm to find solutions.
+A [BlockBlast](https://play.google.com/store/apps/details?id=com.block.juggle&pcampaignid=web_share) clone using **pygame**. It includes an auto solver that uses a backtracking algorithm to find solutions.
+
+BlockBlast is a puzzle game where players place blocks on a grid to clear rows and columns much like Tetris.
 
 <p align="center">
     <img src="demo/screenrecord.gif" alt="Demo" width="300"></img>
@@ -18,8 +20,8 @@ A [BlockBlast](https://play.google.com/store/apps/details?id=com.block.juggle&pc
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/andrianllmm/blockblast.git
-    cd blockblast
+    git clone https://github.com/andrianllmm/byteblast.git
+    cd byteblast
     ```
 
 2. Create and activate a virtual environment:
@@ -39,5 +41,5 @@ A [BlockBlast](https://play.google.com/store/apps/details?id=com.block.juggle&pc
 
 4. Start the game:
     ```bash
-    python blockblast/main.py
+    python src/main.py
     ```
